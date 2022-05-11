@@ -1,6 +1,7 @@
 module.exports = {
   webpack5: true,
   images: {
+    formats: ['image/avif', 'image/webp'],
     domains: ['gravatar.com']
   },
   eslint: {
